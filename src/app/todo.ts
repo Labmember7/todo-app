@@ -1,8 +1,10 @@
 export class Todo{
+    id: number = -1;
     name: string = "";
-    iscompleted: boolean = false;
-    constructor (name: string, iscompleted: boolean){
+    isDone: boolean = false;
+    created: string = "";
+    constructor(name: string, iscompleted: boolean) {
         this.name = name;
-        this.iscompleted = iscompleted;
+        this.isDone = iscompleted;
     }
 }

@@ -1,3 +1,2 @@
-<div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-</div>
+<td class="{{(todo.isDone)?'done':'' }}" (click)="done()">{{ todo.name }}</td>
+<td>{{ todo.created }}</td>

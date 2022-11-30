@@ -1,16 +1,3 @@
-.first-init-reply {
-    max-width: 600px;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.first-init-reply .list-group-item {
-    position: relative;
-    padding-left: 40px;
-}
-
-.first-init-reply .list-group-item svg {
-    position: absolute;
-    left: 10px;
-    top: 10px;
+.done {
+    text-decoration: line-through;
 }
